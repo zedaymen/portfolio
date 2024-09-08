@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Quicksand", system-ui;
+}
+.navbar {
+  border: black solid 1px;
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  gap: 5px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+  max-width: 990px;
+}
+
+.nav-li {
+  transition: 0.3s;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-logo {
+  list-style: none;
+  max-width: 990px;
+  color: #bc1c21;
+  font-size: 30px;
+  font-weight: bold;
+}
+.nav-li:hover {
+  color: #bc1c21;
+  border-bottom: 2px #bc1c21 solid;
+  cursor: pointer;
+}
+
+.nav-img {
+  width: 50px;
+  border-radius: 15px #bc1c21 solid;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.body-img {
+  width: 500px;
+  height: 90vh;
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 80%;
+}
+
+#body-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: whitesmoke;
+}
+#body-items h1 {
+  padding: 30px;
+  font-size: 50px;
+}
+#body-items h3 {
+  font-size: 30px;
+}
+#body-items p {
+  padding: 30px;
+  line-height: 1.3rem;
+}
+#body-items i {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  color: #bc1c21;
+  border: 1px solid #bc1c21;
+  border-radius: 50%;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#body-items i:hover {
+  background-color: #bc1c21;
+  color: black;
+  transform: scale(1.2);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px #bc1c21,
+    0 0 20px #bc1c21;
+}
+
+.btn {
+  margin-top: 30px;
+  color: whitesmoke;
+  border: 1px #bc1c21 solid;
+  padding: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #bc1c21;
+  color: black;
+  transform: scale(1.1);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px #bc1c21,
+    0 0 20px #bc1c21;
+  cursor: pointer;
+}
+.span-body {
+  color: #bc1c21;
+}
